@@ -1,0 +1,44 @@
+name: food_map
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/mktLogo.png
+  - assets/walkingPerson.gif
+  - assets/background.png
+  - assets/cuisine/braised_pork_rice.jpg
+  - assets/cuisine/meat_puff.jpg
+  - assets/cuisine/cooked_side_dishes.jpg
+  - assets/cuisine/sashimi.jpg
+  - assets/cuisine/drinks.jpg
+  - assets/cuisine/stir_fry.jpg
+  - assets/cuisine/dry_noodle_with_sauce.jpg
+  - assets/cuisine/sushi.jpg
+  - assets/cuisine/dry_rice_noodle.jpg
+  - assets/cuisine/taiwanese_meatball.jpg
+  - assets/cuisine/ice.jpg
+  - assets/cuisine/turnip_cake.jpg
+  - assets/cuisine/jute_soup.jpg
+  - assets/cuisine/vegetarian.jpg
+  - assets/cuisine/buns.jpg
+  - assets/cuisine/wonton_soup.jpg
+
