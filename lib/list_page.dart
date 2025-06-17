@@ -365,7 +365,7 @@ class NoteTitle extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Text(
-        '${restaurant.restaurantNameChi} ${restaurant.restaurantNameEng} test',
+        '${restaurant.restaurantNameChi} ${restaurant.restaurantNameEng}',
         style: const TextStyle(fontWeight: FontWeight.bold),
       ),
     );
